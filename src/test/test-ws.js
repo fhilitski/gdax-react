@@ -1,4 +1,9 @@
 
+/*
+  this is a test of gdax WS service connection. 
+  it should run (i.e. node <this_file>) and print WS feed to STDOUT
+  
+*/
 var moment = require('moment'); //moment.js for timestamp formatting
 const Gdax = require('gdax');
 const ws_endpoint = 'wss://ws-feed.gdax.com'; //gdax ws endpoint
